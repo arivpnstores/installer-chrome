@@ -30,6 +30,12 @@ Setelah selesai, kamu bisa menjalankan Chrome dengan perintah:
 google-chrome --no-sandbox --disable-gpu --disable-software-rasterizer >/dev/null 2>&1 &
 ```
 
+### 🚮 Cara Menghapus
+
+```bash
+sudo apt remove --purge -y google-chrome-stable && sudo rm -f /etc/apt/sources.list.d/google-chrome.list /usr/share/keyrings/google-chrome.gpg && rm -rf ~/.config/google-chrome ~/.cache/google-chrome && sudo apt update
+```
+
 ### ⚠️ Catatan
 
 * Tidak mendukung sistem **32-bit**
