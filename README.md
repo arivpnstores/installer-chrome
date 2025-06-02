@@ -19,10 +19,7 @@ Script bash otomatis untuk menginstal **Google Chrome** di sistem operasi **Ubun
 ### 🚀 Cara Penggunaan
 
 ```bash
-git clone https://github.com/kamu/google-chrome-installer.git
-cd google-chrome-installer
-chmod +x install-chrome.sh
-sudo ./install-chrome.sh
+bash <(curl -sL https://raw.githubusercontent.com/arivpnstores/installer-chrome/main/install-chrome.sh)
 ```
 
 ### 🧪 Hasil
