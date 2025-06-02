@@ -27,7 +27,7 @@ bash <(curl -sL https://raw.githubusercontent.com/arivpnstores/installer-chrome/
 Setelah selesai, kamu bisa menjalankan Chrome dengan perintah:
 
 ```bash
-google-chrome
+google-chrome --no-sandbox --disable-gpu --disable-software-rasterizer >/dev/null 2>&1 &
 ```
 
 ### ⚠️ Catatan
